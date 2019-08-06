@@ -1,0 +1,6 @@
+C:\Users\lana\source\repos\CarFinance247DB1\bin\Debug\CarFinance247DB1.dacpac
+C:\Users\lana\source\repos\CarFinance247DB1\bin\Debug\CarFinance247DB1.dll
+C:\Users\lana\source\repos\CarFinance247DB1\bin\Debug\CarFinance247DB1.pdb
+C:\Users\lana\source\repos\CarFinance247DB1\obj\Debug\CarFinance247DB1.sqlprojAssemblyReference.cache
+C:\Users\lana\source\repos\CarFinance247DB1\obj\Debug\CarFinance247DB1.dll
+C:\Users\lana\source\repos\CarFinance247DB1\obj\Debug\CarFinance247DB1.pdb

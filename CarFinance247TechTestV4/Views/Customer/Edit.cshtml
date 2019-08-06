@@ -1,0 +1,49 @@
+﻿@model CarFinance247TechnicalTest.Model.Customer
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Customer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id" />
+            <div class="form-group">
+                <label asp-for="firstName" class="control-label">First name</label>
+                <input asp-for="firstName" class="form-control" required="required" />
+                <span asp-validation-for="firstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="surname" class="control-label">Surname</label>
+                <input asp-for="surname" class="form-control" />
+                <span asp-validation-for="surname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="emailAddress" class="control-label">E-mail Address</label>
+                <input asp-for="emailAddress" class="form-control" required="required" type="email" />
+                <span asp-validation-for="emailAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="password" class="control-label">Password</label>
+                <input asp-for="password" class="form-control" type="password" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
